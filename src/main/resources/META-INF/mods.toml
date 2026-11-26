@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="herobrinecoop"
+version="1.0.0"
+displayName="Herobrine Co-op"
+authors="ChatGPT"
+description='''Adds quick LAN hosting and direct connection buttons for Minecraft 1.20.1.'''
+
+[[dependencies.herobrinecoop]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.herobrinecoop]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="CLIENT"
